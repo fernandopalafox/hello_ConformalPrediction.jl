@@ -34,8 +34,7 @@ Conformal prediction is a method for predicting sets for **any** model that uses
 
 ## Other notes 
 - Why is the uncertainty of the conformal prediction "rigorous"? 
-- $\alpha$ is the error rate. Which is used to bound the probability that the prediction set containts the correct label. ![Alt text](media/probpred.png.png)
-- `mach = machine(model_conf, X[train, :], y[train])` 
+- $\alpha$ is the error rate. Which is used to bound the probability that the prediction set containts the correct label. ![Alt text](media/probpred.png)
 
   
 
